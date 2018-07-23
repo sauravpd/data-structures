@@ -1,5 +1,9 @@
 package codeSamples.stack;
-
+/**
+ * MyStack Test class
+ * @author saurav
+ *
+ */
 public class MyStackTest 
 {
 	public static void main(String[] args) {
@@ -14,7 +18,7 @@ public class MyStackTest
 			stack.push(35);
 			stack.push(40);
 			stack.pop();
-			
+
 		}
 		catch (Exception e)
 		{
