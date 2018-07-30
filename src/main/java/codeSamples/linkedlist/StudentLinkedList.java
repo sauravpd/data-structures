@@ -17,11 +17,16 @@ public class StudentLinkedList
 		size++;
 	}
 	
+	/**
+	 * size of the list
+	 * @return
+	 */
 	public int size()
 	{
 		return size;
 	}
 
+	
 	public boolean isEmpty()
 	{
 		return head==null;
