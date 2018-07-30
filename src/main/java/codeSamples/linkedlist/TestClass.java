@@ -22,5 +22,9 @@ public class TestClass
 		
 		System.out.println("Size of list : "+list.size());
 		System.out.println(list.isEmpty());
+		
+		list.remove();
+		System.out.println("After removing element");
+		list.printList();
 	}
 }
