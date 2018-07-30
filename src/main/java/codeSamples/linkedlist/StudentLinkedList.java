@@ -1,6 +1,6 @@
 package codeSamples.linkedlist;
 /**
- * 
+ * Singly Linked Lists Implementation
  * @author saurav
  *
  */
