@@ -19,5 +19,8 @@ public class TestClass
 		list.insert(s3);
 		list.insert(s4);
 		list.printList();
+		
+		System.out.println("Size of list : "+list.size());
+		System.out.println(list.isEmpty());
 	}
 }
