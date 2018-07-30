@@ -1,9 +1,15 @@
 package codeSamples.linkedlist;
 
+/**
+ * 
+ * @author saurav
+ *
+ */
 public class Node 
 {
 	Node next;
 	Student student;
+
 	public Node(Student student) 
 	{
 		this.student=student;
