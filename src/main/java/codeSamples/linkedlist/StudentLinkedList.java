@@ -8,7 +8,7 @@ public class StudentLinkedList
 {
 	Node head;
 	private int size;
-	
+
 	public void insert(Student st)
 	{
 		Node node=new Node(st);
@@ -16,7 +16,7 @@ public class StudentLinkedList
 		head=node;
 		size++;
 	}
-	
+
 	/**
 	 * size of the list
 	 * @return
@@ -26,12 +26,12 @@ public class StudentLinkedList
 		return size;
 	}
 
-	
+
 	public boolean isEmpty()
 	{
 		return head==null;
 	}
-	
+
 	public void printList()
 	{
 		Node node=head;
@@ -41,5 +41,18 @@ public class StudentLinkedList
 			node=node.getNext();
 		}
 		System.out.println("null");
+	}
+
+	public Node remove()
+	{
+		if(isEmpty())
+		{
+			return null;
+		}
+		Node removeNode=head;
+		head=head.getNext();
+		size--;
+		removeNode.setNext(null);
+		return removeNode;
 	}
 }
