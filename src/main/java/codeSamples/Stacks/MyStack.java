@@ -1,4 +1,4 @@
-package codeSamples.stack;
+package codeSamples.Stacks;
 
 public class MyStack 
 {
@@ -20,6 +20,17 @@ public class MyStack
 		}
 		System.out.println("Adding: "+entry);
 		this.stackArr[++top] = entry;
+	}
+
+	public int pop() throws Exception 
+	{
+		if(this.isStackEmpty())
+		{
+			throw new Exception("Stack is empty. Can not remove element.");
+		}
+		int entry = this.stackArr[top--];
+		System.out.println("Removed entry: "+entry);
+		return entry;
 	}
 
 	public boolean isStackEmpty() {

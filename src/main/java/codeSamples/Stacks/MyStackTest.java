@@ -1,4 +1,4 @@
-package codeSamples.stack;
+package codeSamples.Stacks;
 /**
  * MyStack Test class
  * @author saurav

@@ -1,4 +1,4 @@
-package codeSamples.stack;
+package codeSamples.Stacks;
 
 public class DynamicStack 
 {
