@@ -27,6 +27,5 @@ public class TestClass
 
 		employeeList.remove(2);
 		employeeList.forEach(employee -> System.out.println(employee));
-
 	}
 }
