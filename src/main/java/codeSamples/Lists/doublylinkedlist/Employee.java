@@ -1,5 +1,10 @@
 package codeSamples.Lists.doublylinkedlist;
 
+/**
+ * Employee
+ * @author saurav
+ *
+ */
 public class Employee {
 
     private String firstName;
