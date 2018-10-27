@@ -1,5 +1,10 @@
 package codeSamples.Lists.arraylists;
 
+/**
+ * Employee
+ * @author saurav
+ *
+ */
 public class Employee 
 {
 	private String firstName;
