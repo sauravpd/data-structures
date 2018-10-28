@@ -11,6 +11,10 @@ public class EmployeeDoublyLinkedList
 	private EmployeeNode tail;
 	private int size;
 
+	/**
+	 * addToFront
+	 * @param employee
+	 */
 	public void addToFront(Employee employee)
 	{
 		EmployeeNode node = new EmployeeNode(employee);
@@ -27,6 +31,10 @@ public class EmployeeDoublyLinkedList
 		size++;
 	}
 
+	/**
+	 * addToEnd
+	 * @param employee
+	 */
 	public void addToEnd(Employee employee) 
 	{
 		EmployeeNode node = new EmployeeNode(employee);
@@ -42,6 +50,10 @@ public class EmployeeDoublyLinkedList
 		size++;
 	}
 
+	/**
+	 * removeFromFront
+	 * @return
+	 */
 	public EmployeeNode removeFromFront() 
 	{
 		if (isEmpty()) {
@@ -63,6 +75,10 @@ public class EmployeeDoublyLinkedList
 		return removedNode;
 	}
 
+	/**
+	 * removeFromEnd
+	 * @return
+	 */
 	public EmployeeNode removeFromEnd() 
 	{
 		if (isEmpty()) {
@@ -84,16 +100,27 @@ public class EmployeeDoublyLinkedList
 		return removedNode;
 	}
 
+	/**
+	 * getSize
+	 * @return
+	 */
 	public int getSize() 
 	{
 		return size;
 	}
 
+	/**
+	 * isEmpty
+	 * @return
+	 */
 	public boolean isEmpty() 
 	{
 		return head == null;
 	}
 
+	/**
+	 * printList
+	 */
 	public void printList() 
 	{
 		EmployeeNode current = head;
