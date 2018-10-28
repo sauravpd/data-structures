@@ -1,5 +1,10 @@
 package codeSamples.Lists.doublylinkedlist;
 
+/**
+ * EmployeeDoublyLinkedList
+ * @author saurav
+ *
+ */
 public class EmployeeDoublyLinkedList {
 
     private EmployeeNode head;
@@ -93,6 +98,5 @@ public class EmployeeDoublyLinkedList {
         }
         System.out.println("null");
     }
-
 
 }
