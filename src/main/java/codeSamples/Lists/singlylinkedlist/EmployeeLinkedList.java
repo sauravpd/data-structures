@@ -5,20 +5,23 @@ package codeSamples.Lists.singlylinkedlist;
  * @author saurav
  *
  */
-public class EmployeeLinkedList {
-
+public class EmployeeLinkedList 
+{
     private EmployeeNode head;
     private int size;
 
-    public void addToFront(Employee employee) {
+    public void addToFront(Employee employee) 
+    {
         EmployeeNode node = new EmployeeNode(employee);
         node.setNext(head);
         head = node;
         size++;
     }
 
-    public EmployeeNode removeFromFront() {
-        if (isEmpty()) {
+    public EmployeeNode removeFromFront() 
+    {
+        if (isEmpty()) 
+        {
             return null;
         }
 
@@ -29,15 +32,18 @@ public class EmployeeLinkedList {
         return removedNode;
     }
 
-    public int getSize() {
+    public int getSize() 
+    {
         return size;
     }
 
-    public boolean isEmpty() {
+    public boolean isEmpty() 
+    {
         return head == null;
     }
 
-    public void printList() {
+    public void printList() 
+    {
         EmployeeNode current = head;
         System.out.print("HEAD -> ");
         while (current != null) {
@@ -47,5 +53,4 @@ public class EmployeeLinkedList {
         }
         System.out.println("null");
     }
-
 }
