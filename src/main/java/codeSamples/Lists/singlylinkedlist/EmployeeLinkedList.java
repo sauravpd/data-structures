@@ -1,5 +1,10 @@
 package codeSamples.Lists.singlylinkedlist;
 
+/**
+ * EmployeeLinkedList
+ * @author saurav
+ *
+ */
 public class EmployeeLinkedList {
 
     private EmployeeNode head;
