@@ -3,15 +3,23 @@ package codeSamples.Stacks.listStack;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class LinkedStack {
+/**
+ * LinkedStack 
+ * @author saurav
+ *
+ */
+public class LinkedStack 
+{
 
     private LinkedList<Employee> stack;
 
-    public LinkedStack() {
+    public LinkedStack() 
+    {
         stack = new LinkedList<Employee>();
     }
 
-    public void push(Employee employee) {
+    public void push(Employee employee) 
+    {
         stack.push(employee);
     }
 
@@ -23,11 +31,13 @@ public class LinkedStack {
         return stack.peek();
     }
 
-    public boolean isEmpty() {
+    public boolean isEmpty() 
+    {
         return stack.isEmpty();
     }
 
-    public void printStack() {
+    public void printStack() 
+    {
         ListIterator<Employee> iterator = stack.listIterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
