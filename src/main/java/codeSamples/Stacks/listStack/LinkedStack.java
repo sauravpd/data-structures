@@ -17,24 +17,45 @@ public class LinkedStack
         stack = new LinkedList<Employee>();
     }
 
+    /**
+     * push
+     * @param employee
+     */
     public void push(Employee employee) 
     {
         stack.push(employee);
     }
 
-    public Employee pop() {
+    /**
+     * pop
+     * @return
+     */
+    public Employee pop() 
+    {
         return stack.pop();
     }
 
-    public Employee peek() {
+    /**
+     * peek
+     * @return
+     */
+    public Employee peek() 
+    {
         return stack.peek();
     }
 
+    /**
+     * isEmpty
+     * @return
+     */
     public boolean isEmpty() 
     {
         return stack.isEmpty();
     }
 
+    /**
+     * printStack
+     */
     public void printStack() 
     {
         ListIterator<Employee> iterator = stack.listIterator();
