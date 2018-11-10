@@ -1,9 +1,14 @@
 package codeSamples.Stacks.listStack;
 
+/**
+ * listStackImpl
+ * @author saurav
+ *
+ */
 public class listStackImpl 
 {
-	public static void main(String[] args) {
-
+	public static void main(String[] args) 
+	{
 		Employee janeJones = new Employee("Jane", "Jones", 123);
 		Employee johnDoe = new Employee("John", "Doe", 4567);
 		Employee marySmith = new Employee("Mary", "Smith", 22);
@@ -24,8 +29,6 @@ public class listStackImpl
 
 		System.out.println("Popped: " + stack.pop());
 		System.out.println(stack.peek());
-
-
 
 	}
 }
