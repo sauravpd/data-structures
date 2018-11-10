@@ -10,7 +10,6 @@ import java.util.ListIterator;
  */
 public class LinkedStack 
 {
-
     private LinkedList<Employee> stack;
 
     public LinkedStack() 
